@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"  tools:context=".MainActivity" >
+    <item
+        android:id="@+id/mnu_codes"
+        android:orderInCategory="100"
+        android:title="查找可用货币"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/mnu_invert"
+        android:orderInCategory="200"
+        android:title="交换汇兑币种"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/mnu_exit"
+        android:orderInCategory="300"
+        android:title="退出"
+        app:showAsAction="never"></item>
+</menu>
